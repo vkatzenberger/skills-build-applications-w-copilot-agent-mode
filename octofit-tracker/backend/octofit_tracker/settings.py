@@ -144,3 +144,9 @@ CORS_ALLOW_HEADERS = [
     'authorization',
     'x-csrftoken',
 ]
+
+# Add trusted origins for CSRF
+CSRF_TRUSTED_ORIGINS = ['https://laughing-xylophone-g4qw4v6vg4rjfgr-8000.app.github.dev']
+
+# Ensure secure connection settings
+SECURE_SSL_REDIRECT = False
